@@ -134,7 +134,7 @@ export default
           "Circuit Breaker",
           "Http"
       ],
-      "respostaCorreta": "GraphQL",
+      "respostaCorreta": "Circuit Breaker",
       "descricaoRespostaCorreta": "",
       "categoria": 1,
       "dificuldade": 0,
