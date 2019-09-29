@@ -1,17 +1,9 @@
-import React from 'react';
-import './App.css';
-import Proof from './components/proof/Proof'
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './components/App'
 
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-      <Proof/>
-      <Footer/>
-    </div>
-  );
-}
 
-export default App;
+ReactDOM.render(
+        <App/>,
+        document.getElementById("app")
+);
